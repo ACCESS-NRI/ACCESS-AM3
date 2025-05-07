@@ -7,6 +7,8 @@ on:
       - reopened
       - synchronize
       - closed
+      - converted_to_draft
+      - ready_for_review
     branches:
       - main
       - backport/*.*

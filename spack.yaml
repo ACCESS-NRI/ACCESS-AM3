@@ -37,11 +37,11 @@ spack:
 
     gcom:
       require:
-        - '@7.8'
+        - '@7.9'
 
     openmpi:
       require:
-        - '@4.1.5'
+        - '@5.0.5'
 
     # Specifications that apply to all packages
     all:
@@ -53,28 +53,13 @@ spack:
     unify: true
   modules:
     default:
-      enable:
-        - tcl
-      roots:
-        tcl: $spack/../release/modules
-        lmod: $spack/../release/lmod
       tcl:
-        hash_length: 0
         include:
           - access-am3
           - um
-        exclude_implicits: true
-        all:
-          autoload: direct
-          conflict:
-            - '{name}'
-          environment:
-            set:
-              'SPACK_{name}_ROOT': '{prefix}'
         projections:
-          all: '{name}/{version}'
           access-am3: '{name}/2025.06.000'
-          um: '{name}/13.1'
+          um: '{name}/13.1-{hash:7}'
   config:
     install_tree:
       root: $spack/../restricted/ukmo/release

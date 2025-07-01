@@ -4,23 +4,56 @@
 # configuration settings.
 spack:
   specs:
-  # TODO: Replace the MODEL and VERSION.
-  # The root SBD for the model and overall version of the deployment:
-  # - MODEL@git.VERSION
+    - access-am3@git.2025.06.000
   packages:
-    # TODO: Specify versions and variants of dependencies where required
-    # Specification of dependency versions and variants goes here.
-    # CI/CD requires that the first element of the require is only a version:
-    # openmpi:
-    #   require:
-    #     - '@4.0.2'
+    # Direct dependencies
+    um:
+      require:
+        - '@13.1'
+        - model="vn13p1-am"
+        # This JULES source code is at ref 2333ceb817ac3e93ed22936e0ed9cee92104a99c
+        - jules_sources="/scratch/tm70/am3/JULES"
+        # This UM source code at ref 94551c44b87799d9e6deeb9841665df80573ff16
+        - um_sources="/scratch/tm70/am3/UM"
+
+    # Indirect dependencies
+    eccodes:
+      require:
+         - '@2.34.0'
+
+    netcdf-c:
+      require:
+        - '@4.9.2'
+
+    netcdf-fortran:
+      require:
+        - '@4.5.2'
+
+    fcm:
+      require:
+        - '@2021.05.0'
+        # TODO: Generalize this Gadi-specific variant for spack.yaml
+        - 'site=nci-gadi'
+
+    gcom:
+      require:
+        - '@7.8'
+
+    openmpi:
+      require:
+        - '@4.1.5'
 
     # Specifications that apply to all packages
     all:
-    # TODO: Specify compiler/targets for all packages
-    # require:
-    #   - '%intel@19.0.5.281'
-    #   - 'target=x86_64'
+      require:
+        - '%intel@19.0.3.199'
+        - target=x86_64_v4
   view: true
   concretizer:
     unify: true
+  config:
+    install_tree:
+      root: $spack/../restricted/ukmo/release
+    source_cache: $spack/../restricted/ukmo/source_cache
+    build_stage:
+    - $TMPDIR/restricted/spack-stage

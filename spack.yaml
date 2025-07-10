@@ -11,10 +11,6 @@ spack:
       require:
         - '@13.1'
         - model="vn13p1-am"
-        # This JULES source code is at ref 2333ceb817ac3e93ed22936e0ed9cee92104a99c
-        - jules_sources="/scratch/tm70/am3/JULES"
-        # This UM source code at ref 94551c44b87799d9e6deeb9841665df80573ff16
-        - um_sources="/scratch/tm70/am3/UM"
 
     # Indirect dependencies
     eccodes:

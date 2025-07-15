@@ -11,6 +11,7 @@ spack:
       require:
         - '@13.1'
         - model="vn13p1-am"
+        - +am3
 
     # Indirect dependencies
     eccodes:

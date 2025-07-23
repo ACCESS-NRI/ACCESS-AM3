@@ -11,6 +11,8 @@ spack:
       require:
         - '@13.1'
         - model="vn13p1-am"
+        - jules_sources="AM3-dev"
+        - um_sources="AM3-dev"
 
     # Indirect dependencies
     eccodes:

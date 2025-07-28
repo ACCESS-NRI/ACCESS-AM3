@@ -39,7 +39,7 @@ spack:
 
     openmpi:
       require:
-        - '@5.0.5'
+        - '@4.1.7'
 
     # Specifications that apply to all packages
     all:
@@ -55,6 +55,7 @@ spack:
         include:
           - access-am3
           - um
+          - openmpi
         projections:
           access-am3: '{name}/2025.06.000'
           um: '{name}/13.1-{hash:7}'

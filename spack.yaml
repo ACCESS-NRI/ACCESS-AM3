@@ -39,7 +39,7 @@ spack:
 
     openmpi:
       require:
-        - '@4.1.5'
+        - '@4.1.7'
 
     # Specifications that apply to all packages
     all:

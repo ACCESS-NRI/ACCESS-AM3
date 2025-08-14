@@ -35,7 +35,7 @@ spack:
 
     gcom:
       require:
-        - '@7.8'
+        - '@7.9'
 
     openmpi:
       require:

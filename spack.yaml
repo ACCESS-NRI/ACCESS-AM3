@@ -15,10 +15,6 @@ spack:
         - um_sources="2025.08.0"
 
     # Indirect dependencies
-    eccodes:
-      require:
-         - '@2.34.0'
-
     netcdf-c:
       require:
         - '@4.9.2'

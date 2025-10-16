@@ -11,8 +11,8 @@ spack:
       require:
         - '@13.1'
         - model="vn13p1-am"
-        - jules_sources="2025.08.0"
-        - um_sources="2025.08.0"
+        - jules_ref="2025.08.0"
+        - um_ref="2025.08.0"
 
     # Indirect dependencies
     netcdf-c:

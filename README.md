@@ -1,7 +1,7 @@
 # ACCESS-AM3
 
 ## About the model
-The ACCESS-AM model is an atmosphere-land climate model. ACCESS-AM3 is a subset of models that are used to form the Earth system model, ACCESS-ESM3.
+The ACCESS-AM model is an atmosphere-land climate model for the biogeophysics and biogeochemistry. ACCESS-AM3 forms part of the ACCESS-ESM3 Earth system model.
 
 ## Support
 
@@ -13,7 +13,7 @@ ACCESS-NRI is using [spack](https://spack.io), a build from source package manag
 
 Spack automatically builds all the components and their dependencies, producing model component executables. Spack already contains support for compiling thousands of common software packages. Spack packages for the components in ACCESS-AM3 are defined in the [spack packages repository](https://github.com/ACCESS-NRI/spack_packages/).
 
-ACCESS-AM3 is built and deployed automatically to `gadi` on NCI (see below). However it is possible to use spack to compile the model using the `spack.yaml` environment file in this repository. To do so follow the [instructions on the ACCESS Forum for configuring spack on `gadi`](https://forum.access-hive.org.au/t/how-to-build-access-om2-on-gadi/1545).
+ACCESS-AM3 is built and deployed automatically to `gadi` on NCI (see below). However it is possible to use spack to compile the model using the `spack.yaml` environment file in this repository. To do so follow the [instructions on the ACCESS Forum for configuring spack on `gadi`](https://docs.access-hive.org.au/models/run-a-model/build_a_model/).
 
 Then clone this repository and run the following commands on `gadi`:
 

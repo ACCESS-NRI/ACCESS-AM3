@@ -4,7 +4,7 @@
 # configuration settings.
 spack:
   specs:
-    - access-am3@git.2025.06.000
+    - access-am3@git.2025.10.000
   packages:
     # Direct dependencies
     um:

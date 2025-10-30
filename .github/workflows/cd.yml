@@ -18,4 +18,6 @@ jobs:
       config-packages-schema-version: 1-0-0
     permissions:
       contents: write
+      # Required because later workflows also handle on.pull_request trigger
+      pull-requests: write
     secrets: inherit

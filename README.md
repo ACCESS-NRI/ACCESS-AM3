@@ -9,7 +9,7 @@ Any questions about ACCESS-NRI releases of ACCESS-AM3 should be done through the
 
 ### Build
 
-ACCESS-NRI is using [spack](https://spack.io), a build from source package manager designed for use with high performance computing. This repository contains a [spack environment](https://spack.readthedocs.io/en/latest/environments.html) definition file ([`spack.yaml`](https://github.com/ACCESS-NRI/ACCESS-AM3/blob/main/spack.yaml)) that defines all the essential components of the ACCESS-ESM1.6 model, including exact versions.
+ACCESS-NRI is using [spack](https://spack.io), a build from source package manager designed for use with high performance computing. This repository contains a [spack environment](https://spack.readthedocs.io/en/latest/environments.html) definition file ([`spack.yaml`](https://github.com/ACCESS-NRI/ACCESS-AM3/blob/main/spack.yaml)) that defines all the essential components of the ACCESS-AM3 model, including exact versions.
 
 Spack automatically builds all the components and their dependencies, producing model component executables. Spack already contains support for compiling thousands of common software packages. Spack packages for the components in ACCESS-AM3 are defined in the [spack packages repository](https://github.com/ACCESS-NRI/spack_packages/).
 

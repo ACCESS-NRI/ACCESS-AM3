@@ -2,6 +2,7 @@
 #
 # It describes a set of packages to be installed, along with
 # configuration settings.
+#dummy config ci
 spack:
   specs:
     - access-am3@git.2025.10.000

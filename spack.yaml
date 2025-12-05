@@ -4,44 +4,44 @@
 # configuration settings.
 spack:
   specs:
-    - access-am3@git.2025.10.000
+  - access-am3@git.2025.10.000
   packages:
     # Direct dependencies
     um:
       require:
-        - '@13.1'
-        - model="vn13p1-am"
-        - jules_ref="2025.08.0"
-        - um_ref="2025.08.0"
+      - '@13.1'
+      - model="vn13p1-am"
+      - jules_ref="2025.08.0"
+      - um_ref="2025.08.0"
 
     # Indirect dependencies
     netcdf-c:
       require:
-        - '@4.9.2'
+      - '@4.9.2'
 
     netcdf-fortran:
       require:
-        - '@4.5.2'
+      - '@4.5.2'
 
     fcm:
       require:
-        - '@2021.05.0'
-        # TODO: Generalize this Gadi-specific variant for spack.yaml
-        - 'site=nci-gadi'
+      - '@2021.05.0'
+      # TODO: Generalize this Gadi-specific variant for spack.yaml
+      - 'site=nci-gadi'
 
     gcom:
       require:
-        - '@7.9'
+      - '@7.9'
 
     openmpi:
       require:
-        - '@4.1.7'
+      - '@4.1.7'
 
     # Specifications that apply to all packages
     all:
       require:
-        - '%intel@2021.10.0'
-        - target=x86_64_v4
+      - '%intel@2021.10.0'
+      - target=x86_64_v4
   view: true
   concretizer:
     unify: true

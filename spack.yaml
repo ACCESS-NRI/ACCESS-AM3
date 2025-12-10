@@ -2,6 +2,7 @@
 #
 # It describes a set of packages to be installed, along with
 # configuration settings.
+#dummy config ci
 spack:
   specs:
     - access-am3@git.2025.10.000
@@ -11,8 +12,8 @@ spack:
       require:
         - '@13.1'
         - model="vn13p1-am"
-        - jules_ref="2025.08.0"
-        - um_ref="2025.08.0"
+        - jules_ref="9ea2d1d6bf8c621250ee1c2347e9a1d76d55596d"
+        - um_ref="e035ccfa4f5126661bbcfac55c2fd1135abf8519"
 
     # Indirect dependencies
     netcdf-c:

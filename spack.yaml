@@ -12,7 +12,7 @@ spack:
         - '@13.1'
         - model="vn13p1-am"
         - jules_ref="2025.08.0"
-        - um_ref="improve-error-messaging"
+        - um_ref="a9b6210529e1f5a7594f609a0570eecae8c8b3a7"
 
     # Indirect dependencies
     netcdf-c:

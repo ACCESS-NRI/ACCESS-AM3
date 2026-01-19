@@ -13,7 +13,7 @@ spack:
         - '@13.1'
         - model="vn13p1-am"
         - jules_ref="9ea2d1d6bf8c621250ee1c2347e9a1d76d55596d"
-        - um_ref="8b7d8838546d00accb15b73126a405505be3b025"
+        - um_ref="1628cc337f5043896ea754809aa5ea631d21c303"
 
     # Indirect dependencies
     netcdf-c:

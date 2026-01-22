@@ -11,7 +11,7 @@ spack:
       require:
         - '@13.1'
         - model="vn13p1-am"
-        - jules_ref="e71e28fd61f3ec00021556c2b176321843955767"
+        - jules_ref="683920a56378eaed81c9216d734aa207f47e0377"
         - um_ref="2025.08.0"
 
     # Indirect dependencies

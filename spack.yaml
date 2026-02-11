@@ -13,7 +13,7 @@ spack:
         - model="vn13p1-am"
         - jules_ref="2025.08.0"
         - um_ref="2025.08.0"
-        - ukca_ref="2025.12.1"
+        - ukca_ref="615a547a060ef80ae6019cf63d409602473e1e68"
 
     # Indirect dependencies
     netcdf-c:

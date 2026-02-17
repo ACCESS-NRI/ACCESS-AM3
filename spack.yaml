@@ -13,10 +13,10 @@ spack:
         - model="vn13p1-am"
         - jules_ref="2026.01.0"
         - um_ref="2025.08.0"
-        - ukca_ref="vn13.1"
-        - shumlib_ref="vn13.1"
-        - socrates_ref="vn13.1"
-        - casim_ref="vn13.1"
+        - ukca_ref="615a547a060ef80ae6019cf63d409602473e1e68"
+        - shumlib_ref="um13.1"
+        - socrates_ref="um13.1"
+        - casim_ref="um13.1"
 
     # Indirect dependencies
     netcdf-c:

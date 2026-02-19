@@ -41,14 +41,19 @@ spack:
       require:
       - '@4.1.7'
     # Compilers
-    intel-oneapi-compilers-classic:
+    c:
       require:
-      - '@2021.10.0'
+      - intel-oneapi-compilers-classic@2021.10.0
+    cxx:
+      require:
+      - intel-oneapi-compilers-classic@2021.10.0
+    fortran:
+      require:
+      - intel-oneapi-compilers-classic@2021.10.0
 
     # Specifications that apply to all packages
     all:
       require:
-      - '%access_intel'
       - target=x86_64_v4
   view: true
   concretizer:

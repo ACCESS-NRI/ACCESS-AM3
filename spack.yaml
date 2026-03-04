@@ -14,7 +14,7 @@ spack:
         - jules_ref="2026.01.0"
         - um_ref="2025.08.0"
         - ukca_ref="615a547a060ef80ae6019cf63d409602473e1e68"
-        - shumlib_ref="um13.1"
+        - shumlib_ref="6adf418acdd62322f40e6ab31a9de36c59b24bfb"
         - socrates_ref="um13.1"
         - casim_ref="um13.1"
 

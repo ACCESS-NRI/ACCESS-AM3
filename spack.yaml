@@ -4,14 +4,14 @@
 # configuration settings.
 spack:
   specs:
-    - access-am3@git.2026.02.000
+    - access-am3@git.2026.03.000
   packages:
     # Direct dependencies
     um:
       require:
         - '@13.1'
         - model="vn13p1-am"
-        - jules_ref="2026.01.0"
+        - jules_ref="9d1725433900c3755157c44313b7af0d2a8a688f"
         - um_ref="2026.01.0"
 
     # Indirect dependencies

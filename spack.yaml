@@ -4,15 +4,15 @@
 # configuration settings.
 spack:
   specs:
-    - access-am3@git.2026.02.000
+    - access-am3@git.2026.03.000
   packages:
     # Direct dependencies
     um:
       require:
         - '@13.1'
         - model="vn13p1-am"
-        - jules_ref="2026.01.0"
-        - um_ref="2026.01.0"
+        - jules_ref="606371afec571ee7d2e1e1190ac6219687ea8b5b"
+        - um_ref="c885f0878c962d431267b243f123613b6577f5a1"
 
     # Indirect dependencies
     netcdf-c:

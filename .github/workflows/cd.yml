@@ -10,8 +10,7 @@ on:
 jobs:
   cd:
     name: CD
-    # NOTE: We are using this specific tag of the deployment infra as the current HEAD of v8 works with a new spack-config that isn't yet migrated to the release instance.  
-    uses: access-nri/build-cd/.github/workflows/cd.yml@v8.3.3
+    uses: access-nri/build-cd/.github/workflows/cd.yml@v8
     with:
       model: ${{ vars.NAME }}
       spack-manifest-schema-version: 2-0-0

@@ -6,7 +6,7 @@ spack:
   definitions:
   # _name and _version are reserved definitions that inform build-cd deployments, and have no effect otherwise
   - _name: [access-am3]
-  - _version: [2026.05.000]
+  - _version: [2026.05.001]
   specs:
   - access-am3
   packages:
@@ -18,6 +18,7 @@ spack:
       - jules_ref="2026.05.0"
       - um_ref="2026.05.0"
       - ukca_ref="AM3-2026.03.0"
+      - shumlib_ref="6adf418acdd62322f40e6ab31a9de36c59b24bfb"
 
     # Indirect dependencies
     netcdf-c:

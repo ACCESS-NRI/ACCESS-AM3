@@ -16,7 +16,7 @@ spack:
       - '@13.1'
       - model="vn13p1-am"
       - jules_ref="0f3f078a10cd4be769fd32711afc626d195fdbb9"
-      - um_ref="0803d516369f00d6d547a7f039310822922424e5"
+      - um_ref="bcb34cd7419e2a8acbbebd6e675e81534e8bf91e"
       - ukca_ref="AM3-2026.03.0"
     cable:
       require:

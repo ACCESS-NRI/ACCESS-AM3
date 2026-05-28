@@ -15,12 +15,12 @@ spack:
       require:
       - '@13.1'
       - model="vn13p1-am"
-      - jules_ref="0f3f078a10cd4be769fd32711afc626d195fdbb9"
-      - um_ref="1fe38385fe02a0aa4dc5b830564f04a34e2a3eb0"
+      - jules_ref="f347f33fba58a50d9d03b8ebc1b2c0b37dbaa610"
+      - um_ref="594b5e369fa0d74ab7232fa130fbc8a675c4c8ac"
       - ukca_ref="AM3-2026.03.0"
     cable:
       require:
-      - '@911c2b39fe4a7128ec42c001bc54600379229bff'
+      - '@f5662be320dbea21372971734103f1d172524eff'
       - 'library=access3'
 
     # Indirect dependencies

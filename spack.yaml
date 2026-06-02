@@ -18,6 +18,7 @@ spack:
       - jules_ref="2026.05.0"
       - um_ref="2026.05.0"
       - ukca_ref="AM3-2026.03.0"
+      - shumlib_ref="90154ea30ad73c38a83f1cbd7edf27b67a0b88ac"
 
     # Indirect dependencies
     netcdf-c:

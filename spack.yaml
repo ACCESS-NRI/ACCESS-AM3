@@ -6,7 +6,7 @@ spack:
   definitions:
   # _name and _version are reserved definitions that inform build-cd deployments, and have no effect otherwise
   - _name: [access-am3]
-  - _version: [2026.05.001]
+  - _version: [2026.06.000]
   specs:
   - access-am3
   packages:
@@ -15,7 +15,7 @@ spack:
       require:
       - '@13.1'
       - model="vn13p1-am"
-      - jules_ref="0734d12dc621f9095050ec2597c93b61ab4fc36d"
+      - jules_ref="bfaec9470846a539efd3fce7464446cb565be13b"
       - um_ref="2026.05.0"
       - ukca_ref="AM3-2026.03.0"
 

@@ -16,7 +16,7 @@ spack:
       - '@13.1'
       - model="vn13p1-am"
       - jules_ref="2026.05.0"
-      - um_ref="2026.05.0"
+      - um_ref="5e8547ebc245dca721bdbd204f13a0194547522f"
       - ukca_ref="AM3-2026.03.0"
 
     # Indirect dependencies

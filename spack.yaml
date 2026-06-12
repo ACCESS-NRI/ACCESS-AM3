@@ -20,7 +20,7 @@ spack:
       - ukca_ref="AM3-2026.03.0"
     cable:
       require:
-      - '@a892c05be691939e28b5a3048b904959c9716385'
+      - '@39fc22033dd4c12062cc47c605b1d736e698535c'
       - 'library=access3'
 
     # Indirect dependencies

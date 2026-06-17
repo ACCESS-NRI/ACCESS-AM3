@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/ACCESS-NRI/schema/main/au.org.access-nri/model/deployment/config/versions/4-0-0.json",
   "spack": "1.1",
-  "access-spack-packages": "599c63f96f8ecb9c0847ee2a7378639215f52e53",
+  "access-spack-packages": "cd8bdd99d43b8185f12370a25904211e974c3d3e",
   "custom-scopes": [
     "ukmo-restricted-scope"
   ]

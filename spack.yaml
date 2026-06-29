@@ -6,18 +6,18 @@ spack:
   definitions:
   # _name and _version are reserved definitions that inform build-cd deployments, and have no effect otherwise
   - _name: [access-am3]
-  - _version: [2026.06.001]
+  - _version: [2026.06.003]
   specs:
   - access-am3
   packages:
     # Direct dependencies
     um:
       require:
-      - '@13.1'
+      - '@13.8'
       - model="vn13p1-am"
-      - jules_ref="2026.06.0"
-      - um_ref="2026.05.0"
-      - ukca_ref="AM3-2026.03.0"
+      - jules_ref="AM3-dev-vn13.8"
+      - um_ref="AM3-dev-vn.13.8"
+      - ukca_ref="7a828610d148a78247b701c570148356140ea4c1"
 
     # Indirect dependencies
     netcdf-c:
@@ -36,7 +36,7 @@ spack:
 
     gcom:
       require:
-      - '@7.9'
+      - '@8.4'
 
     openmpi:
       require:

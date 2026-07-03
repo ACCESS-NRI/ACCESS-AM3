@@ -18,10 +18,13 @@ spack:
       - jules_ref="2b4a750d6657e0270434cb22fc24a61a258de68f"
       - um_ref="37dda5a5047a4ed52bf92ab695e5660ea4a9b1ab"
       - ukca_ref="AM3-2026.03.0"
+      - shumlib_ref="2026.06.0"
+      
     cable:
       require:
       - '@43bd6c67912e33ad2f34bb119a3b12d3342b47bd'
       - 'library=access3'
+
 
     # Indirect dependencies
     netcdf-c:

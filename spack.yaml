@@ -14,7 +14,7 @@ spack:
     um:
       require:
       - '@13.8'
-      - model="vn13"
+      - model="vn13p8-am"
       - jules_ref="AM3-dev-vn13.8"
       - um_ref="AM3-dev-vn13.8"
       - ukca_ref="7a828610d148a78247b701c570148356140ea4c1"

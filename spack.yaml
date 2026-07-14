@@ -45,13 +45,13 @@ spack:
     # Compilers
     c:
       require:
-      - intel-oneapi-compilers-classic@2021.10.0
+      - intel-oneapi-compilers@2025.3.2
     cxx:
       require:
-      - intel-oneapi-compilers-classic@2021.10.0
+      - intel-oneapi-compilers@2025.3.2
     fortran:
       require:
-      - intel-oneapi-compilers-classic@2021.10.0
+      - intel-oneapi-compilers@2025.3.2
 
     # Specifications that apply to all packages
     all:

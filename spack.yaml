@@ -19,6 +19,7 @@ spack:
       - um_ref="AM3-dev-vn13.8"
       - ukca_ref="7a828610d148a78247b701c570148356140ea4c1"
       - shumlib_ref="e409db21f9ed362e6947d9aa9f5694a123449dcb"
+      - fcflags_overrides="-march=sapphirerapids -mtune=sapphirerapids"
 
     # Indirect dependencies
     netcdf-c:

@@ -16,7 +16,7 @@ spack:
       - '@13.8'
       - model="vn13p8-am"
       - jules_ref="AM3-dev-vn13.8"
-      - um_ref="AM3-dev-vn13.8"
+      - um_ref="677558e825f964ca2fdaca500cb92c6499a30717"
       - ukca_ref="7a828610d148a78247b701c570148356140ea4c1"
       - shumlib_ref="e409db21f9ed362e6947d9aa9f5694a123449dcb"
       - fcflags_overrides="-march=sapphirerapids -mtune=sapphirerapids"

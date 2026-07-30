@@ -19,6 +19,7 @@ spack:
       - um_ref="37dda5a5047a4ed52bf92ab695e5660ea4a9b1ab"
       - ukca_ref="AM3-2026.03.0"
       - shumlib_ref="2026.06.0"
+      - +cable
       
     cable:
       require:

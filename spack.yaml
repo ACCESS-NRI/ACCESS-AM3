@@ -23,7 +23,7 @@ spack:
       
     cable:
       require:
-      - '@43bd6c67912e33ad2f34bb119a3b12d3342b47bd'
+      - '@2026.07.000'
       - 'library=access3'
 
 

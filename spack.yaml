@@ -23,7 +23,7 @@ spack:
       
     cable:
       require:
-      - '@2026.07.000'
+      - '@git.2026.07.000'
       - 'library=access3'
 
 

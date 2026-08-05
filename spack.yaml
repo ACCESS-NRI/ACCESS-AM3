@@ -15,7 +15,7 @@ spack:
       require:
       - '@13.1'
       - model="vn13p1-am"
-      - jules_ref="2026.08.000"
+      - jules_ref="3ffed4714407a5c18501a0c3bb7c31293106d86a"
       - um_ref="2026.08.000"
       - ukca_ref="AM3-2026.03.0"
       - shumlib_ref="2026.06.0"

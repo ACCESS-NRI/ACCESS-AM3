@@ -18,6 +18,7 @@ spack:
       - jules_ref="AM3-dev"
       - um_ref="AM3-dev"
       - ukca_ref="um13.8_cable_deposition"
+      - shumlib=2026.07.0
 
     # Indirect dependencies
     netcdf-c:

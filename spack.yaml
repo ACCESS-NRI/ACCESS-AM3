@@ -15,9 +15,9 @@ spack:
       require:
       - '@13.8'
       - model="vn13p8-am"
-      - jules_ref="AM3-dev"
-      - um_ref="AM3-dev"
-      - ukca_ref="um13.8_cable_deposition"
+      - jules_ref="2026.08.001"
+      - um_ref="2026.08.001"
+      - ukca_ref="AM3-2026.08.000"
       - shumlib_ref=2026.07.0
       - +cable
       

@@ -26,10 +26,10 @@ spack:
       - ukca_ref="AM3-2026.08.000"
       - shumlib_ref=2026.07.0
       - +cable
-      
+
     cable:
       require:
-      - '@git.2026.07.000'
+      - '@2026.07.000'
       - 'library=access3'
 
     # Indirect dependencies
@@ -39,7 +39,8 @@ spack:
 
     netcdf-fortran:
       require:
-      - '@4.5.2'
+      # https://github.com/ACCESS-NRI/spack-config/issues/121
+      - '@4.6.1'
 
     fcm:
       require:
@@ -75,5 +76,5 @@ spack:
   repos:
     access_spack_packages:
       git: https://github.com/ACCESS-NRI/access-spack-packages.git
-      tag: 2026.07.013
+      tag: 2026.09.001
       destination: $env/package-repos/access-spack-packages

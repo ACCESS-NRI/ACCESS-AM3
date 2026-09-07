@@ -6,7 +6,7 @@ spack:
   definitions:
   # _name and _version are reserved definitions that inform build-cd deployments, and have no effect otherwise
   - _name: [access-am3]
-  - _version: [2026.08.002]
+  - _version: [2026.09.000]
   # _spack-version and _custom-scopes inform the branch of spack to use, and custom scopes if applicable, respectively
   - _spack-version: ["1.1"]
   - _custom-scopes: ["ukmo-restricted-scope"]
@@ -75,5 +75,5 @@ spack:
   repos:
     access_spack_packages:
       git: https://github.com/ACCESS-NRI/access-spack-packages.git
-      tag: 2026.07.013
+      commit: 1b56fa3227bca0011fcca843a2561f3f57a0b2f0
       destination: $env/package-repos/access-spack-packages

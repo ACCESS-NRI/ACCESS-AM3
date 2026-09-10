@@ -6,7 +6,7 @@ spack:
   definitions:
   # _name and _version are reserved definitions that inform build-cd deployments, and have no effect otherwise
   - _name: [access-am3]
-  - _version: [2026.08.002]
+  - _version: [2026.08.003]
   # _spack-version and _custom-scopes inform the branch of spack to use, and custom scopes if applicable, respectively
   - _spack-version: ["1.1"]
   - _custom-scopes: ["ukmo-restricted-scope"]
@@ -22,7 +22,7 @@ spack:
       - '@13.8'
       - model="vn13p8-am"
       - jules_ref="2026.08.002"
-      - um_ref="2026.08.001"
+      - um_ref="540984ef256a7eee95cadf5ee542613bb4570390"
       - ukca_ref="AM3-2026.08.000"
       - shumlib_ref=2026.07.0
       - +cable

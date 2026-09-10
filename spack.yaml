@@ -4,72 +4,75 @@
 # configuration settings.
 spack:
   definitions:
-  # _name and _version are reserved definitions that inform build-cd deployments, and have no effect otherwise
-  - _name: [access-am3]
-  - _version: [2026.08.003]
-  # _spack-version and _custom-scopes inform the branch of spack to use, and custom scopes if applicable, respectively
-  - _spack-version: ["1.1"]
-  - _custom-scopes: ["ukmo-restricted-scope"]
-  # Release database provenance information - packages for inclusion into the database, and packages just for injection into the modules
-  - _provenance: ["um"]
-  - _injection: ["openmpi"]
+    # _name and _version are reserved definitions that inform build-cd deployments, and have no effect otherwise
+    - _name: [access-am3]
+      _version:
+        - 2026.08.004
+    - _version: [2026.08.004]
+    # _spack-version and _custom-scopes inform the branch of spack to use, and custom scopes if applicable, respectively
+    - _spack-version: ["1.1"]
+      _version:
+        - 2026.08.004
+    - _custom-scopes: ["ukmo-restricted-scope"]
+      _version:
+        - 2026.08.004
+    # Release database provenance information - packages for inclusion into the database, and packages just for injection into the modules
+    - _provenance: ["um"]
+      _version:
+        - 2026.08.004
+    - _injection: ["openmpi"]
+      _version:
+        - 2026.08.004
   specs:
-  - access-am3
+    - access-am3
   packages:
     # Direct dependencies
     um:
       require:
-      - '@13.8'
-      - model="vn13p8-am"
-      - jules_ref="2026.08.002"
-      - um_ref="540984ef256a7eee95cadf5ee542613bb4570390"
-      - ukca_ref="AM3-2026.08.000"
-      - shumlib_ref=2026.07.0
-      - +cable
-
+        - '@13.8'
+        - model="vn13p8-am"
+        - jules_ref="2026.08.002"
+        - um_ref="540984ef256a7eee95cadf5ee542613bb4570390"
+        - ukca_ref="AM3-2026.08.000"
+        - shumlib_ref=2026.07.0
+        - +cable
     cable:
       require:
-      - '@2026.07.000'
-      - 'library=access3'
-
+        - '@2026.07.000'
+        - 'library=access3'
     # Indirect dependencies
     netcdf-c:
       require:
-      - '@4.9.2'
-
+        - '@4.9.2'
     netcdf-fortran:
       require:
-      # https://github.com/ACCESS-NRI/spack-config/issues/121
-      - '@4.6.1'
-
+        # https://github.com/ACCESS-NRI/spack-config/issues/121
+        - '@4.6.1'
     fcm:
       require:
-      - '@2021.05.0'
-      # TODO: Generalize this Gadi-specific variant for spack.yaml
-      - 'site=nci-gadi'
-
+        - '@2021.05.0'
+        # TODO: Generalize this Gadi-specific variant for spack.yaml
+        - 'site=nci-gadi'
     gcom:
       require:
-      - '@8.4'
-
+        - '@8.4'
     openmpi:
       require:
-      - '@4.1.7'
+        - '@4.1.7'
     # Compilers
     c:
       require:
-      - intel-oneapi-compilers-classic@2021.10.0
+        - intel-oneapi-compilers-classic@2021.10.0
     cxx:
       require:
-      - intel-oneapi-compilers-classic@2021.10.0
+        - intel-oneapi-compilers-classic@2021.10.0
     fortran:
       require:
-      - intel-oneapi-compilers-classic@2021.10.0
-
+        - intel-oneapi-compilers-classic@2021.10.0
     # Specifications that apply to all packages
     all:
       require:
-      - target=x86_64_v4
+        - target=x86_64_v4
   view: true
   concretizer:
     unify: true

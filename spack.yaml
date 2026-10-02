@@ -56,7 +56,7 @@ spack:
 
     openmpi:
       require:
-      - '@4.1.7'
+      - '@5.0.8'
     # Compilers
     c:
       require:

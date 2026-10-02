@@ -78,5 +78,5 @@ spack:
   repos:
     access_spack_packages:
       git: https://github.com/ACCESS-NRI/access-spack-packages.git
-      tag: 2026.09.001
+      branch: api-v2
       destination: $env/package-repos/access-spack-packages

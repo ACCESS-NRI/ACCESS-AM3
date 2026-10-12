@@ -83,3 +83,10 @@ spack:
       git: https://github.com/ACCESS-NRI/access-spack-packages.git
       branch: api-v2
       destination: $env/package-repos/access-spack-packages
+  modules:
+    default:
+      tcl:
+        ^openmpi@5.0.8:
+          environment:
+            set:
+              OMPI_PRTERUN: /apps/prrte/4.0.0/bin/prterun

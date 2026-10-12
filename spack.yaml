@@ -22,7 +22,7 @@ spack:
       - '@13.8'
       - model="vn13p8-am"
       - jules_ref="2026.08.002"
-      - um_ref="add-oneapi-build-config"
+      - um_ref="AM3-dev"
       - ukca_ref="AM3-2026.08.000"
       - shumlib_ref=2026.07.0
       - platform_config_dir="nci-x86-oneapi"

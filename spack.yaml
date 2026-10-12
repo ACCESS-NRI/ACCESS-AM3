@@ -75,6 +75,9 @@ spack:
   view: true
   concretizer:
     unify: true
+  env_vars:
+    set:
+      OMPI_PRTERUN: "/apps/prrte/3.0.6/bin/prterun"
   repos:
     access_spack_packages:
       git: https://github.com/ACCESS-NRI/access-spack-packages.git

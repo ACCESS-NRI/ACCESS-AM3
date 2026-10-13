@@ -12,7 +12,7 @@ spack:
   - _custom-scopes: [ukmo-restricted-scope]
   # Release database provenance information - packages for inclusion into the database, and packages just for injection into the modules
   - _provenance: [um]
-  - _injection: []
+  - _injection: [openmpi]
   specs:
   - access-am3
   packages:

@@ -75,18 +75,8 @@ spack:
   view: true
   concretizer:
     unify: true
-  env_vars:
-    set:
-      OMPI_PRTERUN: "/apps/prrte/3.0.6/bin/prterun"
   repos:
     access_spack_packages:
       git: https://github.com/ACCESS-NRI/access-spack-packages.git
       branch: api-v2
       destination: $env/package-repos/access-spack-packages
-  modules:
-    default:
-      tcl:
-        ^openmpi@5.0.8:
-          environment:
-            set:
-              OMPI_PRTERUN: /apps/prrte/4.0.0/bin/prterun

@@ -25,8 +25,7 @@ spack:
       - um_ref="AM3-dev"
       - ukca_ref="AM3-2026.08.000"
       - shumlib_ref=2026.07.0
-      - platform_config_dir="nci-x86-oneapi"
-      - fcflags_overrides="-march=sapphirerapids -mtune=sapphirerapids -qopt-zmm-usage=high"
+      - platform_config_dir="nci-x86-ifort"
       - +cable
 
     cable:
@@ -60,13 +59,13 @@ spack:
     # Compilers
     c:
       require:
-      - intel-oneapi-compilers@2025.3.2
+      - intel-oneapi-compilers-classic@2021.10.0
     cxx:
       require:
-      - intel-oneapi-compilers@2025.3.2
+      - intel-oneapi-compilers-classic@2021.10.0
     fortran:
       require:
-      - intel-oneapi-compilers@2025.3.2
+      - intel-oneapi-compilers-classic@2021.10.0
 
     # Specifications that apply to all packages
     all:

@@ -21,15 +21,15 @@ spack:
       require:
       - '@13.8'
       - model="vn13p8-am"
-      - jules_ref="AM3-dev"
-      - um_ref="AM3-dev"
+      - jules_ref="urban-dev-beta"
+      - um_ref="urban-dev-beta"
       - ukca_ref="AM3-2026.08.000"
       - shumlib_ref=2026.07.0
       - +cable
 
     cable:
       require:
-      - '@git.main'
+      - '@git.urban-dev-beta'
       - library=access3
 
     # Indirect dependencies

@@ -22,7 +22,7 @@ spack:
       - '@13.8'
       - model="vn13p8-am"
       - jules_ref="2026.08.002"
-      - um_ref="0723d9a01bc82301c30f5f0eb2b05a844b2c7f56"
+      - um_ref="change-cable-preproc-block-to-if-statement"
       - ukca_ref="um13.8"
       - shumlib_ref=2026.07.0
       - +cable

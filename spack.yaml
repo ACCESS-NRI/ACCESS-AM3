@@ -21,9 +21,9 @@ spack:
       require:
       - '@13.8'
       - model="vn13p8-am"
-      - jules_ref="2026.08.002"
-      - um_ref="change-cable-preproc-block-to-if-statement"
-      - ukca_ref="um13.8"
+      - jules_ref="jules-fixes"
+      - um_ref="jules-fixes"
+      - ukca_ref="jules-fixes"
       - shumlib_ref=2026.07.0
       - +cable
 

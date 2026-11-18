@@ -51,7 +51,7 @@ spack:
 
     gcom:
       require:
-      - '@git.95b362c248802228145929ac7767b82c44f96e1c=8.4'
+      - '@8.4.1'
 
     openmpi:
       require:
@@ -77,5 +77,5 @@ spack:
   repos:
     access_spack_packages:
       git: https://github.com/ACCESS-NRI/access-spack-packages.git
-      branch: api-v2
+      tag: 2026.11.001
       destination: $env/package-repos/access-spack-packages

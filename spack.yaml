@@ -27,7 +27,7 @@ spack:
       - shumlib_ref=2026.07.0
       - platform_config_dir="nci-x86-oneapi"
       - +cable
-      - fflags="-march=sapphirerapids -mtune=sapphirerapids"
+      - fcflags_overrides="-march=sapphirerapids -mtune=sapphirerapids"
 
     cable:
       require:

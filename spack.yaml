@@ -27,13 +27,13 @@ spack:
       - shumlib_ref=2026.07.0
       - platform_config_dir="nci-x86-oneapi"
       - +cable
-      - fcflags_overrides="-march=sapphirerapids -mtune=sapphirerapids"
+      - fcflags_overrides="-march=sapphirerapids -mtune=sapphirerapids -sox"
 
     cable:
       require:
       - '@2026.07.000'
       - library=access3
-      - fflags="-march=sapphirerapids -mtune=sapphirerapids"
+      - fflags="-march=sapphirerapids -mtune=sapphirerapids -sox"
 
     # Indirect dependencies
     netcdf-c:
